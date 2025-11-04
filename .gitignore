@@ -1,5 +1,5 @@
 .env
-bot.js
-package-lock.json
+/bot.js
+/package-lock.json
 
 /node_modules

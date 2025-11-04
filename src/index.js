@@ -8,6 +8,7 @@ await bot.launch();
 logger.info('bot.running', { polling: true });
 
 await bot.telegram.setMyCommands([
+  { command: 'menu', description: 'Tampilkan menu' },
   { command: 'saldo', description: 'Cek saldo' },
   { command: 'deposit', description: 'Ajukan deposit: /deposit <nominal>' },
   { command: 'layanan', description: 'Beli nomor OTP' },
